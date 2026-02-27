@@ -1,0 +1,172 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f2ef;
+    font-family: 'Cormorant Garamond', serif;
+}
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: dimgrey;
+}
+h3, h2{
+    font-family: 'Cormorant Garamond', serif;
+    color: dimgrey;
+}
+h4{
+    color: dimgrey; 
+}
+body {
+    margin: 2px;
+}
+.input{
+    display: flex;
+    background-color: #FDF6F0;
+}
+#search{
+    flex: 1;
+    background-color: #f5f2ef;
+    border: solid 1px white;
+    padding: 10px;
+    background-image: url('searchicon.png');
+}
+.list{
+    font-size: 15px;
+    
+}
+.parent5{
+    display: flex;
+    justify-content: center;
+    
+}
+.shop {
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.four {
+    color: floralwhite;
+    text-decoration: none;
+    font-style: italic;
+}
+.parent5 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.foto {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.foto:hover{
+    font-size: 15px;
+}
+.parent6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f2ef;
+    padding: 60px; 
+}
+.six {
+    font-size: 15px;
+    color: dimgrey;
+    text-align: center;
+}
+.uno {
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+.parent6:hover{
+    background-color: #F9F9F9;
+}
+h2{
+    color: dimgrey; 
+    font-size: 30px;
+}
+.parent9{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #e7e7de;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 800px){
+    body{
+        background-color: #EEEEEE;
+    }
+    .parent2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parent5{
+        
+        padding: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .parent6{
+        align-self: center;
+    } 
+    .parent9{
+        display: flex;
+        flex-direction: column;
+    }
+    .four{
+        font-size: 15px;
+    }
+    h3, h2{
+        font-size: 15px;
+    }
+    .centered{
+        font-size: 20px;
+    }
+    
+
+
+}
+@media all and (max-width: 500px) {
+    body{
+        background-color: #EEEEEE;
+    }
+    .parent2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parent5{
+        padding: 20px;
+    }
+    img{
+        width: 100%;
+    }
+    .parent6 {
+        align-self: center;
+    }
+    .parent9 {
+        display: flex;
+        flex-direction: column;
+    }
+    h3, h2{
+        font-size: 25px;
+    }
+
+}
